@@ -1,7 +1,7 @@
 package leetcode;
 
 // Find in Mountain Array
-
+// not submitted because mountainArr is a type of interface instead of array
 public class leet1095 {
     public static void main(String[] args) {
         int[] arr = { 1, 2, 4, 6, 10, 8, 6, 3, 1};
