@@ -10,8 +10,6 @@ public class Main {
         System.err.println("less than target " + floor(arr, target));
     }
 
-
-
     static int floor(int[] arr, int target) {
         int start = 0;
         int end = arr.length - 1;
