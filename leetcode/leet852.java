@@ -11,12 +11,23 @@ public class leet852 {
         int start = 0;
         int end = arr.length - 1;
 
-        while (start <= end) {
+        // while (start <= end) {
+        //     int mid = start + (end - start) / 2;
+
+        //     if(arr[mid] > arr[mid + 1]){
+        //         end = mid - 1;
+        //     }else if(arr[mid] < arr[mid + 1]){
+        //         start = mid + 1;
+        //     }
+        // }
+        
+        // bhai ka solution
+        while (start < end) {
             int mid = start + (end - start) / 2;
 
             if(arr[mid] > arr[mid + 1]){
-                end = mid - 1;
-            }else if(arr[mid] < arr[mid + 1]){
+                end = mid;
+            }else{
                 start = mid + 1;
             }
         }
