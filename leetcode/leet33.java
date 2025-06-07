@@ -3,8 +3,9 @@ package leetcode;
 // Search in Rotated Sorted Array
 public class leet33 {
     public static void main(String[] args) {
-        int[] nums = { 4, 5, 6, 7, 8, 9, 1, 2, 3 };
-        int target = 4;
+        // int[] nums = { 4, 5, 6, 7, 8, 9, 1, 2, 3 };
+        int[] nums = { 1 };
+        int target = 1;
         System.out.println("target index " + findInMountainArray(nums, target));
     }
 
@@ -13,7 +14,9 @@ public class leet33 {
         int end = nums.length - 1;
         int peak = findPeak(nums, start, end);
         System.out.println("Peak index " + peak);
-
+        if(target == nums[peak]){
+            return peak;
+        }
         if (target < nums[0]) {
             return binarySearch(nums, target, peak + 1, end);
         }else{
