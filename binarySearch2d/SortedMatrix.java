@@ -12,12 +12,12 @@ public class SortedMatrix {
             {9, 10, 11, 12},
             {13, 14, 15, 16},
         };
-        int target = 170;
-        for (int[] is : matrix) {
-            for (int is2 : is) {
-                System.out.println(Arrays.toString(mySearch(matrix, is2)));
-            }
-        }
+        int target = in.nextInt();
+        // for (int[] is : matrix) {
+        //     for (int is2 : is) {
+        //         System.out.println(Arrays.toString(mySearch(matrix, is2)));
+        //     }
+        // }
         // System.out.println(Arrays.toString(search(matrix, target)));
         System.out.println(Arrays.toString(mySearch(matrix, target)));
 
