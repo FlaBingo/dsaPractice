@@ -1,4 +1,4 @@
-package leetcode;
+package binarySearch;
 
 // Peak Index in a mountain Array [0, 2, 4, 2, 1, 0]
 public class leet852 {

@@ -1,4 +1,4 @@
-package leetcode;
+package binarySearch;
 
 // Find in Mountain Array
 // not submitted because mountainArr is a type of interface instead of array

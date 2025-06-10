@@ -1,4 +1,4 @@
-package leetcode;
+package binarySearch;
 
 // 410. Split Array Largest Sum
 

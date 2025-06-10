@@ -1,4 +1,4 @@
-package leetcode;
+package binarySearch;
 
 // Search in Rotated Sorted Array
 // Example 1:

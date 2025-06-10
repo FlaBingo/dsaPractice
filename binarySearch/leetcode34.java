@@ -1,4 +1,4 @@
-package leetcode;
+package binarySearch;
 import java.util.Arrays;
 
 public class leetcode34 {
