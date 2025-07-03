@@ -1,4 +1,3 @@
-package sort_algorithms;
 
 public class duplicateNumber {
     public void main(String[] args) {

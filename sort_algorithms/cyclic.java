@@ -1,8 +1,8 @@
-package sort_algorithms;
+// package sort_algorithms;
 
 import java.util.Arrays;
 // very important algorithm
-public class cycle {
+public class cyclic {
     public static void main(String[] args) {
         int[] arr = {3, 5, 2, 1, 4};
         cycleSort(arr);
