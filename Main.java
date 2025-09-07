@@ -6,8 +6,8 @@ public class Main {
         int[] arr = { 1, 2, 3, 4, 5, 6, 9 };
         int target = 10;
         // System.err.println(binarySearch(arr, target));
-        System.err.println("greater than target " + ceiling(arr, target));
-        System.err.println("less than target " + floor(arr, target));
+        System.out.println("greater than target " + ceiling(arr, target));
+        System.out.println("less than target " + floor(arr, target));
     }
 
     static int floor(int[] arr, int target) {
